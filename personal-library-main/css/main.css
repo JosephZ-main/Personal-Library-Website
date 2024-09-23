@@ -1,0 +1,123 @@
+body {
+	text-align: center;
+	background-color: #F2F2F2;
+}
+
+div {
+    font-family: sans-serif;
+}
+
+.hotbar {
+	color: white;
+	background-color: #1E7CFF;
+	background-image: linear-gradient(#1E7CFF, rgb(184, 202, 225));	
+	
+	opacity: 0.8;
+	padding: 5px;
+	border: 3px solid #404040;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+	
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+}
+
+.main-footer {
+	color: white;
+	background-color: #1E7CFF;
+	background-image: linear-gradient(rgb(184, 202, 225), #1E7CFF);	
+	opacity: 0.8;	
+	padding: 5px;
+	border: 3px solid #404040;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+}
+
+.home-header {
+	float: left;
+	border: 3px solid #404040;
+	border-radius: 15px;
+	padding: 10px;
+	width: 150px;
+	font-weight: bold;
+}
+
+.content {
+	border: 3px solid #404040;
+	border-radius: 15px;
+	padding: 10px;
+	flex-basis: 100%;
+}
+
+.linedUp {
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+}
+
+.shorter-book-description {
+	overflow: hidden;
+  	display: -webkit-box;
+  	-webkit-line-clamp: 3;
+  	-webkit-box-orient: vertical;
+}
+
+tr.dotted, td.dotted {
+	border-top: 1px dotted black;
+}
+
+a:link {
+	color: slateblue;
+}
+
+a:link:visited {
+	color: purple;
+}
+
+a.hotbar-link:link{
+	color: white;
+}
+
+a.hotbar-link:visited{
+	color: white;
+}
+
+a.header-link:link {
+	color: blue;
+}
+
+a.header-link:visited {
+	color: purple;
+}
+
+a:hover, a:active {
+	color: red;
+}
+
+.centered-box {
+	border: 3px solid #404040;
+	border-radius: 15px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: space-between;
+	align-items: center;
+}
+
+.alert {
+	color:red;
+	border: 3px solid #404040;
+	border-radius: 15px;
+}
+
+table tr:nth-child(even){
+	background-color: #fffff3;	
+}
+
+table tr:hover{
+	background-color: #cce6ff;
+}
